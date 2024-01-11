@@ -1,0 +1,52 @@
+.tasksmart {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.add-todo {
+    /* width: 100vw; */
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+    align-items: center;
+    margin-top: 10px;
+    gap: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.add-todo>button {
+    background-color: black;
+    height: 30px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.add-description {
+    width: 200px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    resize: none;
+}
+
+.add-title {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.todo {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}

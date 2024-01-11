@@ -1,0 +1,19 @@
+.moderate-view {
+    width: 350px;
+    height: 180px;
+    border: 1px solid rgb(197, 195, 195);
+    border-radius: 10px;
+    position: relative;
+}
+
+.moderate-title {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.moderate-description {
+    font-size: 15px;
+    font-weight: normal;
+    margin: 20px;
+}

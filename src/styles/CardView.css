@@ -1,0 +1,52 @@
+.card-view {
+    width: 350px;
+    height: 230px;
+    border: 1px solid rgb(197, 195, 195);
+    border-radius: 10px;
+    position: relative;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.card-input {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 20px 0px 20px;
+}
+
+.card-description {
+    font-size: 15px;
+    font-weight: normal;
+    margin: 20px;
+}
+
+.card-textarea {
+    width : 310px;
+    height : 100px;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 20px;
+    resize: none;
+}
+
+.card-view-icons {
+    width: fit-content;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.save-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 10px;
+}

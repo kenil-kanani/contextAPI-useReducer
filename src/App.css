@@ -1,0 +1,21 @@
+.mobile {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+}
+
+.desktop {
+    display: block;
+}
+
+@media only screen and (max-width: 768px) {
+    .mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .desktop {
+        display: none;
+    }
+}
